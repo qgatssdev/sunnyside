@@ -23,11 +23,11 @@ function App() {
       </div>
       <img
         src={require('./images/mobile/image-stand-out.jpg')}
-        className="audience1"
+        className="audience1" alt='audeince'
       />
       <img
         src={require('./images/desktop/image-stand-out.jpg')}
-        className="audience2"
+        className="audience2" alt='audience'
       />
       <div className="audience-text">
         <h1>Start out to the right audience</h1>
