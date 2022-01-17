@@ -1,4 +1,6 @@
 import './css/App.css';
+import { mockdata } from './mockdata';
+import Reviews from './Reviews';
 
 function App() {
   return (
@@ -57,6 +59,12 @@ function App() {
           </p>
         </div>
       </section>
+      <div className="reviews">
+        <h1>CLIENT TESTIMONIALS</h1>
+        {mockdata.map((review) => (
+          <Reviews {...review} />
+        ))}
+      </div>
     </div>
   );
 }

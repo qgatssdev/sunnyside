@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@media (max-width: 576px) {
+  .image-reviews {
+    display: block;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: 20%;
+  }
+  .review-content {
+    #body {
+      color: hsl(213, 9%, 39%);
+      text-align: center;
+      margin-top: 6%;
+      margin-left: 10%;
+      margin-right: 10%;
+      font-family: 'Barlow';
+    }
+    h2 {
+      text-align: center;
+      margin-top: 10%;
+      font-size: 20px;
+    }
+    #body2 {
+      color: hsl(213, 9%, 39%);
+      font-family: 'Barlow';
+      text-align: center;
+      margin-top: 3%;
+      font-size: 14px;
+    }
+  }
+}
