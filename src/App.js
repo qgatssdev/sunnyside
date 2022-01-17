@@ -23,11 +23,13 @@ function App() {
       </div>
       <img
         src={require('./images/mobile/image-stand-out.jpg')}
-        className="audience1" alt='audeince'
+        className="audience1"
+        alt="audeince"
       />
       <img
         src={require('./images/desktop/image-stand-out.jpg')}
-        className="audience2" alt='audience'
+        className="audience2"
+        alt="audience"
       />
       <div className="audience-text">
         <h1>Start out to the right audience</h1>
@@ -45,6 +47,13 @@ function App() {
             Great design makes you memorable. We deliver artwork that
             underscores your brand message and captures potential clients’
             attention.
+          </p>
+        </div>
+        <div className="photography">
+          <h1>Photograhy</h1>
+          <p>
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
           </p>
         </div>
       </section>
