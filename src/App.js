@@ -65,22 +65,27 @@ function App() {
           <Reviews {...review} />
         ))}
       </div>
-      <div className=".random-images">
+
+      <div className="random-images">
         <img
-          src={require('./images/mobile/image-gallery-cone.jpg')}
+          src={require('./images/mobile/image-gallery-milkbottles.jpg')}
           alt="cone"
+          className="child"
         />
         <img
           src={require('./images/mobile/image-gallery-orange.jpg')}
           alt="orange"
+          className="child"
         />
         <img
           src={require('./images/mobile/image-gallery-cone.jpg')}
           alt="cone"
+          className="child"
         />
         <img
-          src={require('./images/mobile/image-gallery-milkbottles.jpg')}
+          src={require('./images/mobile/image-gallery-sugar-cubes.jpg')}
           alt="milk"
+          className="child"
         />
       </div>
     </div>

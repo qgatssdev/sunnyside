@@ -146,4 +146,15 @@
       color: hsl(232, 10%, 55%);
     }
   }
+
+  .random-images {
+    margin-top: 30%;
+    display: flex;
+    flex-wrap: wrap;
+
+    .child {
+      width: 50%;
+      height: 50%;
+    }
+  }
 }
