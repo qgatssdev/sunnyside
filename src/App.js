@@ -88,6 +88,9 @@ function App() {
           className="child"
         />
       </div>
+      <div className="footer">
+        <h1>sunnyside</h1>
+      </div>
     </div>
   );
 }
