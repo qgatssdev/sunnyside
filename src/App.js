@@ -90,6 +90,11 @@ function App() {
       </div>
       <div className="footer">
         <h1>sunnyside</h1>
+        <div className="footer-details">
+          <span>About</span>
+          <span>Services</span>
+          <span>Projects</span>
+        </div>
       </div>
     </div>
   );
